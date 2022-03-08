@@ -1,0 +1,8 @@
+
+b {
+  font-size: 24px;
+}
+
+div p.selected {
+  color: blue;
+}
