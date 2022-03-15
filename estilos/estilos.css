@@ -2,15 +2,14 @@
 
 body {
   font-family: 'Oswald', sans-serif;
+  margin: 0;
 }
 
 h1 {
-  color:dodgerblue;
-  font-size: 38px;
-}
-
-p {
-  text-align: center;
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  display: inline-block;
 }
 
 a {
@@ -20,9 +19,13 @@ a {
   padding: 10px;
   margin: 10px;
   font-weight: bold;
-  border-radius: 6px;
   width: 100px;
   transition: 0.5s;
+  border-left-style: solid;
+  border-left-color:white;
+  border-right-style: solid;
+  border-right-color:white;
+  border-radius: 6px;
 }
 
 a:hover {
@@ -32,4 +35,59 @@ a:hover {
   transition: 0.5s;
 }
 
+div#encabezado {
+  background-color: #ee171f;
+  padding: 3px 10%;
+}
 
+div#contenido-principal {
+  padding: 10px 15%;
+}
+
+div#pie-pagina {
+  background-color: #2a2a2a;
+  padding: 100px 10%;
+  color: white;
+}
+
+#logo {
+  color: red;
+}
+
+.color-rojo {
+  color: red;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.anclar-derecha {
+  padding-top: 25px;
+  float: right;
+}
+
+div.tarjeta {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  background-color: #dcdcdc;
+  border-radius: 6px;
+  margin: 15px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+}
+
+div.tarjeta:hover {
+  border-color: rgb(12, 111, 240);
+  background-color: rgb(12, 111, 240);
+  color: white;
+  transition: 0.5s;
+}
+
+div.tarjeta img {
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
