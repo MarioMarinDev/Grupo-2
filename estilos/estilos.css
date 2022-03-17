@@ -39,6 +39,25 @@ div#encabezado {
   background-color: #ee171f;
   padding: 3px 10%;
 }
+/*
+  max-width => Anchura Máxima
+  min-width => Anchura Mínima 
+  max-height => Altura Máxima
+  min-height => Altura Mínima
+*/
+@media screen and (max-width: 832px) {
+  div#encabezado {
+    padding: 3px 0;   
+  }
+}
+@media screen and (max-width: 666px) {
+  div#encabezado div.anclar-derecha {
+    display: none;
+  }
+  div#encabezado {
+    text-align: center;
+  }
+}
 
 div#contenido-principal {
   padding: 10px 15%;
