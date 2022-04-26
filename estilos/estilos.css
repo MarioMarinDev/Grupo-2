@@ -110,3 +110,28 @@ div.tarjeta img {
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
 }
+
+#seccion-hulk {
+  text-align: center;
+}
+
+#seccion-hulk button {
+  color: white;
+  background-color: darkgreen;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 12px;
+  border-color: black;
+  border-width: 3px;
+}
+
+#seccion-hulk button:hover {
+  background-color: rgb(3, 125, 3);
+}
+
+div.tarjeta.hulk {
+  border-color: rgb(17, 184, 72);
+  background-color: rgb(17, 184, 72);;
+  color: white;
+  transition: 0.5s;
+}
